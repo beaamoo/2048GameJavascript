@@ -19,7 +19,7 @@ Use the arrow keys (↑, ↓, ←, →) to slide the tiles across the grid. When
    ```bash
    git clone https://github.com/beaamoo/2048GameJavascript.git
    
-2. Navigate to the Game Directory:
+2. **Navigate to the Game Directory:**
 
    ```bash
    cd 2048-game
