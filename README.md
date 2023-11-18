@@ -25,9 +25,11 @@ Use the arrow keys (↑, ↓, ←, →) to slide the tiles across the grid. When
    cd 2048-game
 
 3. Open the Game:
+
 Open index.html in your web browser.
 
-4. Technologies Used
+5. Technologies Used
+
 HTML
 CSS
 JavaScript
