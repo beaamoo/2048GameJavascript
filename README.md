@@ -24,17 +24,17 @@ Use the arrow keys (↑, ↓, ←, →) to slide the tiles across the grid. When
    ```bash
    cd 2048-game
 
-3. Open the Game:
+3. **Open the Game:**
 
-Open index.html in your web browser.
+   Open index.html in your web browser.
 
-5. Technologies Used
+5. **Technologies Used**
 
-HTML
-CSS
-JavaScript
+   HTML
+   CSS
+   JavaScript
 
-6. Contributing
-Contributions, issues, and feature requests are welcome. Feel free to check issues page if you want to contribute.
+6. **Contributing**
+   Contributions, issues, and feature requests are welcome. Feel free to check issues page if you want to contribute.
 
 Project Link: [https://github.com/your-username/2048-game](https://github.com/beaamoo/2048GameJavascript.git)https://github.com/beaamoo/2048GameJavascript.git
