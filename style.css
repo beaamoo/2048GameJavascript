@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #faf8ef;
+}
+
+#game-container {
+    margin-top: 40px;
+}
+
+#score-container {
+    margin-bottom: 20px;
+}
+
+#grid-container {
+    width: 410px;
+    height: 410px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+}
+
+.tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cdc1b4;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#control-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#restart-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #8f7a66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#restart-button:hover {
+    background-color: #9f8b76;
+}
+
+#game-area {
+    display: flex;
+    align-items: start; /* Aligns items at the start of the cross axis */
+    justify-content: center; /* Centers items along the main axis */
+    margin-top: 20px; /* Adjust as needed */
+}
+
+#game-container {
+    margin-right: 20px; /* Space between game and progress bar */
+}
+
+#progress-bar-container {
+    width: 20px;
+    height: 430px; /* Same as the game container */
+    margin-left: 20px;
+    margin-top: 137px;
+    background: linear-gradient(to top, 
+    #eee4da, #ede0c8, #f2b179, #f59563, 
+    #f67c5f, #f65e3b, #edcf72, #edcc61, 
+    #edc850, #edc53f, #edc22e); /* Color scale */
+    position: relative;
+}
+
+#progress-line {
+    width: 100%;
+    height: 2px; /* Thickness of the line */
+    background-color: black; /* Color of the line */
+    position: absolute;
+    left: 0;
+}
+
+/* Default color scheme */
+.tile-2 { background-color: #eee4da; }
+.tile-4 { background-color: #ede0c8; }
+.tile-8 { background-color: #f2b179; }
+.tile-16 { background-color: #f59563; }
+.tile-32 { background-color: #f67c5f; }
+.tile-64 { background-color: #f65e3b; }
+.tile-128 { background-color: #edcf72; }
+.tile-256 { background-color: #edcc61; }
+.tile-512 { background-color: #edc850; }
+.tile-1024 { background-color: #edc53f; }
+.tile-2048 { background-color: #edc22e; }
+
+/* Alternate color scheme */
+.alt-color .tile-2 { background-color: #CAF0F8; }
+.alt-color .tile-4 { background-color: #ADE8F4; }
+.alt-color .tile-8 { background-color: #90E0EF; }
+.alt-color .tile-16 { background-color: #48CAE4; }
+.alt-color .tile-32 { background-color: #00B4D8; }
+.alt-color.tile-64 { background-color: #0096C7; }
+.alt-color .tile-128 { background-color: #0077B6; }
+.alt-color .tile-256 { background-color: #023E8A; }
+.alt-color .tile-512 { background-color: #032174; }
+.alt-color .tile-1024 { background-color: #03045E; }
+.alt-color .tile-2048 { background-color: #000109; }
+
+
+
+
